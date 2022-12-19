@@ -1,7 +1,7 @@
 # Common build stage
 FROM node:16-alpine3.14 as common-build-stage
 
-COPY . ./app
+COPY ./app
 
 WORKDIR /app
 
